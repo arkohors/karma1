@@ -73,7 +73,7 @@ button {
 }
 
 /* Middle Section */
-section {
+.introduction {
 	background-image: url('../images/karma-background-image.jpg');
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -110,4 +110,30 @@ section {
     background-color: #d9400e;
     border-color: #cf3d0e;
 
+}
+.cases {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5rem;
+
+}
+.cases > .content {
+    margin-top: 7.5rem;
+}
+
+.cases h1{
+    text-align: center;
+    color: #1d1e21;
+    display: block;
+    margin: auto;
+    border: 8px solid black;
+    font-weight: 300;
+}
+.cases .devices {
+    width: 33.3333%
+     display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
 }
