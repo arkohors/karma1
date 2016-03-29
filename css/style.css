@@ -128,12 +128,35 @@ button {
     margin: auto;
     border: 8px solid black;
     font-weight: 300;
+    order: 1;
 }
 .cases .devices {
-    width: 33.3333%
-     display: inline-block;
-    /* styles to assist with debugging */
+    width: 33%;
+    display: inline-block;
     border: 1px solid black;
+    /* styles to assist with debugging */
     box-sizing: border-box;
     height: 4em;
+    order: 2;
+    margin-right: -.25rem;
+}
+
+.cases .content ul{
+    list-style:  none;
+    text-align: center;
+    
+}
+
+.cases .content ul li{
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 5em;
+}
+
+.cases .content h3 {
+    text-align: center;
+    color: #1d1e21;
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
 }
