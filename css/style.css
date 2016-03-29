@@ -77,6 +77,8 @@ button {
     background-size: cover;
     height: 45.938rem;
     overflow: auto;
+    white-space: nowrap;
+
 }
 
 .introduction h1,
@@ -118,10 +120,13 @@ button {
     overflow: hidden;
     padding-bottom: 5rem;
 
+
 }
 .cases > .content {
     margin-top: 7.5rem;
+    white-space: nowrap;
 }
+
 
 .cases h1{
     text-align: center;
