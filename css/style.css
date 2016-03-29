@@ -49,14 +49,14 @@ button {
     color: #838994;
     font-size: 1.1rem;
     margin-top: 1.5rem;
-    margin-right: 4rem;
+    margin-right: -6rem;
     -webkit-font-smoothing: antialiased;
 
 }
 
 .top-navigation .links li {
 	display: inline-block;
-	margin-left: 10px;
+	margin-left: 2em;
 }
 
 .top-navigation .links > .active {
