@@ -27,6 +27,9 @@ button {
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 .top-navigation > .content {
 	height: 4.35rem;
@@ -159,4 +162,21 @@ button {
     font-weight: 400;
     font-size: 1.563rem;
     margin: 2.5rem 0px 1.875rem;
+}
+
+.social{
+    text-align: center
+}
+
+.social ul {
+    display: inline-block;
+}
+
+.social ul li{
+    list-style: none;
+    display: inline-block;
+}
+.social .join {
+    padding-left: 3rem;
+    font-weight: 300;
 }
