@@ -5,12 +5,9 @@ html {
   box-sizing: inherit;
 }
 body {
-    background-color: LightGray;
     font-family: 'Roboto', sans-serif;
 }
-div {
-    border: 1px solid Chocolate;
-}
+
 button {
     text-shadow: none;
     border-style: none;
@@ -44,8 +41,7 @@ button {
 .top-navigation .logo {
     border-style: none;
     height: 4.25rem;
-    margin-left: 8rem;
-    border: 1px solid Chocolate;
+    margin-left: 7rem;
 }
 
 .top-navigation .links {
@@ -55,14 +51,12 @@ button {
     margin-top: 1.5rem;
     margin-right: 4rem;
     -webkit-font-smoothing: antialiased;
-    border: 1px solid Chocolate;
 
 }
 
 .top-navigation .links li {
 	display: inline-block;
 	margin-left: 10px;
-	border: 1px solid Chocolate;
 }
 
 .top-navigation .links > .active {
@@ -129,9 +123,9 @@ button {
     color: #1d1e21;
     display: block;
     margin: auto;
-    border: 8px solid black;
     font-weight: 300;
     order: 1;
+    margin-bottom: 2em;
 }
 .cases .devices {
     width: 33%;
@@ -165,7 +159,9 @@ button {
 }
 
 .social{
-    text-align: center
+    text-align: center;
+    background-color: #fff;
+    margin: 4rem;
 }
 
 .social ul {
@@ -175,8 +171,21 @@ button {
 .social ul li{
     list-style: none;
     display: inline-block;
+    color: lightskyblue;
+    margin-right: 1rem;
 }
 .social .join {
     padding-left: 3rem;
+    font-weight: 400;
+}
+hr { 
+    display: block;
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+} 
+.social .KMinc {
+    font-size: 0.9rem;
     font-weight: 300;
+    color: #838994;
 }
